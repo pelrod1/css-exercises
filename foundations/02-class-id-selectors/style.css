@@ -1,0 +1,20 @@
+.odd {
+    background-color: #FFA7A7;
+    font-family: Verdana, sans-serif;
+}
+
+#two{
+    color: blue;
+    font-size: 36px;
+}
+
+.oddly{
+    font-size: 24px;
+    background-color: #FFA7A7;
+    font-family: "verdana", sans-serif;
+}
+#four{
+    background-color: #80FF80;
+    font-weight: bold;
+    font-size: 24px;
+}
