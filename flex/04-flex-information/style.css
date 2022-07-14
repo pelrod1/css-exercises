@@ -12,19 +12,29 @@ img {
   font-weight: 900;
 }
 
-.everything{
+.box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  gap: 32px;
 }
 
-.content{
+.plants {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  gap: 52px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
 
+.one , .two , .three , .four {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 200px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* do not edit this footer */
@@ -35,7 +45,7 @@ img {
   right: 0;
   height: 52px;
   display: flex;
-  align-items: center;;
+  align-items: center;
   justify-content: center;
   background: #eee;
 }
